@@ -35,6 +35,10 @@
 		&-group.error {
 			position: relative;
 
+			input {
+				border: var(--border) solid $red;
+			}
+
 			&::after {
 				content: "";
 				display: block;
@@ -61,13 +65,14 @@
 			width: 100%;
 			padding: 0.75rem;
 			border-radius: 5px;
-			border: 1px solid $grayish-blue;
+			border: var(--border) solid $grayish-blue;
 			font-family: inherit;
 			font-weight: 600;
+			color: $dark-grey;
 
 			&:focus {
 				outline: none;
-				border: 1px solid $dark-grey;
+				border: var(--border) solid $dark-grey;
 			}
 		}
 	}

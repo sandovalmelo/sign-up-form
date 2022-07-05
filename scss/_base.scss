@@ -22,6 +22,10 @@ $bottom-shadow: 0 8px
 		$alpha: 0.2
 	);
 
+:root {
+	--border: 1.5px;
+}
+
 body {
 	background-color: $red;
 	font-family: $font-family;
@@ -41,6 +45,10 @@ body {
 }
 
 @media (min-width: 1200px) {
+	:root {
+		--border: 2px;
+	}
+
 	body {
 		display: flex;
 		align-items: center;
