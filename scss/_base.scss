@@ -16,6 +16,11 @@ $green: hsl(154, 59%, 51%);
 $blue: hsl(248, 32%, 49%);
 $dark-grey: hsl(249, 10%, 26%);
 $grayish-blue: hsl(246, 25%, 77%);
+$bottom-shadow: 0 8px
+	rgba(
+		$color: #000000,
+		$alpha: 0.2
+	);
 
 body {
 	background-color: $red;
@@ -44,9 +49,10 @@ body {
 	}
 
 	main {
-		max-width: 1120px;
+		max-width: 960px;
 		margin: 0 auto;
 		display: grid;
-		grid-template-columns: 50% 50%;
+		gap: 4rem;
+		grid-template-columns: 52% 48%;
 	}
 }
