@@ -28,10 +28,26 @@
       </div>
 
       <form class="sign-up-form">
-        <input type="text" name="first-name" id="first-name" placeholder="First Name">
-        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
-        <input type="email" name="email" id="email" placeholder="Email Address">
-        <input type="password" name="password" id="password" placeholder="Password">
+        <div class="sign-up-form-group error">
+          <input type="text" name="first-name" id="first-name" placeholder="First Name">
+          <p class="error-message">First name can not be empty</p>
+        </div>
+
+        <div class="sign-up-form-group error">
+          <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+          <p class="error-message">Last name can not be empty</p>
+        </div>
+
+        <div class="sign-up-form-group error">
+          <input type="email" name="email" id="email" placeholder="Email Address">
+          <p class="error-message">Looks like this is not an email</p>
+        </div>
+
+        <div class="sign-up-form-group error">
+          <input type="password" name="password" id="password" placeholder="Password">
+          <p class="error-message">Password can not be empty</p>
+        </div>
+
         <button type="submit" id="submit-button">Claim your free trial</button>
         <p class=" sign-up-terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
       </form>
