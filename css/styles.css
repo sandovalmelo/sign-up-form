@@ -23,5 +23,55 @@ body {
     max-width: 250px;
     margin-left: auto;
     margin-right: auto; }
+  .heading-text {
+    margin-top: 1rem; }
+
+.sign-up-title {
+  background-color: #6055a5;
+  border-radius: 10px;
+  padding: 1rem 0;
+  margin-bottom: 1rem; }
+  .sign-up-title h2 {
+    font-size: 0.95rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px; }
+    .sign-up-title h2 span {
+      font-weight: 400; }
+.sign-up-form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px; }
+  .sign-up-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #b9b6d3;
+    font-family: inherit;
+    font-weight: 600; }
+    .sign-up-form input:focus {
+      outline: none;
+      border: 1px solid #3e3c49; }
+  .sign-up-form button {
+    background-color: #38cc8c;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 0.75rem;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 1rem; }
+  .sign-up-form p {
+    color: #b9b6d3;
+    font-size: 0.65rem;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto; }
+    .sign-up-form p span {
+      color: #ff7a7a; }
 
 /*# sourceMappingURL=styles.css.map */
