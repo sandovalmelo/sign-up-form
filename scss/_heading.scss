@@ -1,6 +1,8 @@
 .heading {
+	max-width: 400px;
 	padding-top: 3rem;
 	padding-bottom: 2.5rem;
+	margin: 0 auto;
 
 	&-title {
 		max-width: 250px;
@@ -10,5 +12,11 @@
 
 	&-text {
 		margin-top: 1rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.heading {
+		max-width: 100%;
 	}
 }

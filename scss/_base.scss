@@ -28,3 +28,25 @@ body {
 	color: $white;
 	text-align: center;
 }
+
+@media (min-width: 758px) {
+	body {
+		background-image: url("./../images/bg-intro-desktop.png");
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+	}
+
+	main {
+		max-width: 1120px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+}
