@@ -122,6 +122,11 @@
 
 		#submit-button {
 			cursor: pointer;
+
+			&:active {
+				box-shadow: 0 1px hsl(154, 61%, 40%);
+				transform: translateY(3px);
+			}
 		}
 
 		&-terms {

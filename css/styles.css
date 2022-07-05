@@ -154,6 +154,9 @@ body {
       padding: 2.5rem 2rem; }
     .sign-up #submit-button {
       cursor: pointer; }
+      .sign-up #submit-button:active {
+        box-shadow: 0 1px #28a46e;
+        transform: translateY(3px); }
     .sign-up-terms {
       max-width: 100%; } }
 
