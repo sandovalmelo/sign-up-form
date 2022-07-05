@@ -37,6 +37,11 @@
 
 			input {
 				border: var(--border) solid $red;
+				color: $red;
+
+				&::placeholder {
+					color: transparent;
+				}
 			}
 
 			&::after {
@@ -126,6 +131,10 @@
 			&:active {
 				box-shadow: 0 1px hsl(154, 61%, 40%);
 				transform: translateY(3px);
+			}
+
+			&:hover {
+				filter: brightness(1.2);
 			}
 		}
 

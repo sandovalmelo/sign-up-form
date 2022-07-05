@@ -93,7 +93,10 @@ body {
     .sign-up-form-group.error {
       position: relative; }
       .sign-up-form-group.error input {
-        border: var(--border) solid #ff7a7a; }
+        border: var(--border) solid #ff7a7a;
+        color: #ff7a7a; }
+        .sign-up-form-group.error input::placeholder {
+          color: transparent; }
       .sign-up-form-group.error::after {
         content: "";
         display: block;
@@ -157,6 +160,8 @@ body {
       .sign-up #submit-button:active {
         box-shadow: 0 1px #28a46e;
         transform: translateY(3px); }
+      .sign-up #submit-button:hover {
+        filter: brightness(1.2); }
     .sign-up-terms {
       max-width: 100%; } }
 
