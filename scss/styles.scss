@@ -15,3 +15,13 @@ $green: hsl(154, 59%, 51%);
 $blue: hsl(248, 32%, 49%);
 $dark-grey: hsl(249, 10%, 26%);
 $grayish-blue: hsl(246, 25%, 77%);
+
+body {
+	background-color: $red;
+	font-family: $font-family;
+	padding: 1rem;
+	background-image: url("./../images/bg-intro-mobile.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

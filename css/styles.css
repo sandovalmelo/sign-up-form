@@ -5,4 +5,13 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #ff7a7a;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  background-image: url("./../images/bg-intro-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 /*# sourceMappingURL=styles.css.map */
