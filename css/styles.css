@@ -12,6 +12,8 @@ body {
   background-image: url("./../images/bg-intro-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  color: #fff;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
