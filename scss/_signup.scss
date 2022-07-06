@@ -9,6 +9,7 @@
 		padding: 1rem 0;
 		margin-bottom: 1.5rem;
 		box-shadow: $bottom-shadow;
+		font-weight: 500;
 
 		h2 {
 			font-size: 0.95rem;
@@ -107,6 +108,11 @@
 		span {
 			color: $red;
 		}
+	}
+
+	.success-message {
+		color: $green;
+		font-size: 0.85rem;
 	}
 }
 

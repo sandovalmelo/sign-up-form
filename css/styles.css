@@ -75,7 +75,8 @@ body {
     border-radius: 10px;
     padding: 1rem 0;
     margin-bottom: 1.5rem;
-    box-shadow: 0 8px rgba(27, 27, 27, 0.2); }
+    box-shadow: 0 8px rgba(27, 27, 27, 0.2);
+    font-weight: 500; }
     .sign-up-title h2 {
       font-size: 0.95rem;
       margin-left: auto;
@@ -146,6 +147,9 @@ body {
     margin-right: auto; }
     .sign-up-terms span {
       color: #ff7a7a; }
+  .sign-up .success-message {
+    color: #38cc8c;
+    font-size: 0.85rem; }
 
 @media (min-width: 1200px) {
   .sign-up {
